@@ -3,6 +3,19 @@
 Plugin Name: Markerly Wordpress Plugin
 Plugin URI: http://www.markerly.com
 Description: A plugin to give you all the options of the Markerly sharing/analytics suite
+
+Features
+--------
+* All of the basic Markerly options configurable via Wordpress settings
+* Simple, asynchronous code loaded alongside each post/page
+* For more options/settings, please visit http://markerly.com/docs
+
+Configuring / Installing
+------------------------
+* Please folder inside of /wp-content/plugins/
+* All settings live under SETTINGS > Markerly Settings
+* Publisher ID required to receive analytics
+
 Version: 1.1.0
 Author: Justin Kline
 Author URI: justin@markerly.com
