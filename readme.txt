@@ -1,14 +1,14 @@
 === Official Markerly Widget ===
 Contributors: Justin Kline <justin@markerly.com> & Rahf Noor <rahfnoor@gmail.com>
-Donate link: 
+Donate link: It's free! Enjoy!
 Tags: sharing, micro-sharing, text analytics
 Requires at least: 3.3
 Tested up to: 3.4
-Stable tag: 
+Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-82% of sharing is done via copy & paste.  Markerly helps you leverage these micro-engagements so that you can keep your readers more engaged and on your site longer.  It's very simple to set up and you get micro-analytics on user engagement when you log into Markerly.com
+Instant sharing on text highlight/selection to Facebook/Twitter and more!
 
 == Description ==
 
@@ -60,3 +60,11 @@ Of course! You can use Markerly on anything! It's your tool!
 == Screenshots ==
 
 http://markerly.com/assets/screenshots/product_screenshot_1.png
+
+== Changelog == 
+
+- added ability to specify image sharing options
+
+== Upgrade Notice == 
+
+- should work through v3.5+
