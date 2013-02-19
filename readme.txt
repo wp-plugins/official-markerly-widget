@@ -4,7 +4,7 @@ Donate link: It's free! Enjoy!
 Tags: sharing, micro-sharing, text analytics
 Requires at least: 3.3
 Tested up to: 3.4
-Stable tag: trunk
+Stable tag: 1.2.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -36,7 +36,7 @@ Markerly's publisher tools include:
 - You prefer a simple solution to a complex problem
 - You want data that you can turn into actionable items
 
-**Is there an â€œinvisibleâ€ Markerly? I want the analytics, but I don't want the sharing options to appear.**
+**Is there an "invisible" Markerly? I want the analytics, but I don't want the sharing options to appear.**
 Yes! You have the option at Markerly.com when generating code to make it invisible purely for copy & paste analytics. This does not affect your analytics, except that you will not see an increase in page views or click-backs by removing the social aspect of Markerly. All copy & paste data will be provided to you.
 
 **I put Markerly on my site but I never signed up. Can I still access my data?**
@@ -66,4 +66,5 @@ http://markerly.com/assets/screenshots/product_screenshot_1.png
 
 == Upgrade Notice == 
 
+- 1.2.0: added option to change icon color
 - should work through v3.5+
