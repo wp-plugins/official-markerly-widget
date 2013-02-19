@@ -16,9 +16,8 @@ This plugin allows you to install Markerly on your WordPress blog.  It's a socia
 
 == Installation ==
 
-1. Please folder inside of /wp-content/plugins/
-2. All settings live under SETTINGS > Markerly Settings
-3. Publisher ID required to receive analytics
+1. All settings live under SETTINGS > Markerly Settings
+2. Publisher ID required to receive analytics
 
 == Frequently asked questions ==
 
