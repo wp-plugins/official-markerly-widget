@@ -1,7 +1,7 @@
 === Official Markerly Widget ===
 Contributors: Justin Kline <justin@markerly.com> & Rahf Noor <rahfnoor@gmail.com>
 Donate link: It's free! Enjoy!
-Tags: sharing, micro-sharing, text analytics
+Tags: sharing, micro-sharing, text analytics, AddThis, addtoany, aim, bookmark, bookmarking, buzz, e-mail, email, Facebook, google bookmarks, google plus, network, pintrest, Share, share this, sharethis, tynt, sharing, social, socialize, twitter, widget
 Requires at least: 3.3
 Tested up to: 3.4
 Stable tag: 1.2
