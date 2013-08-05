@@ -3,8 +3,8 @@ Contributors: Justin Kline <justin@markerly.com> & Rahf Noor <rahfnoor@gmail.com
 Donate link: It's free! Enjoy!
 Tags: sharing, micro-sharing, text analytics
 Requires at least: 3.3
-Tested up to: 3.4
-Stable tag: 1.2
+Tested up to: 3.8
+Stable tag: 1.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
