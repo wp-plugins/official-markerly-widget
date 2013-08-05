@@ -47,7 +47,7 @@ function markerly_script() {
     $out_options = '<script type="text/javascript">var markerly_settings = '.json_encode($options).';</script>';
     $out = "";
     
-    $out = $out_options.'<script type="text/javascript" src="http://www.markerly.com/toolbar/markerly-pub.js#pub_id='.$pub_id.'"></script>';
+    $out = $out_options.'<script type="text/javascript" src="http://files.markerly.com/markerly-cdn.js#pub_id='.$pub_id.'"></script>';
     
     echo $out;
 }
