@@ -16,7 +16,7 @@ Configuring / Installing
 * All settings live under SETTINGS > Markerly Settings
 * Publisher ID required to receive analytics
 
-Version: 1.1
+Version: 1.3
 Author: Justin Kline
 Author URI: justin@markerly.com
 */
@@ -55,6 +55,26 @@ function markerly_script() {
 // Draw the menu page itself
 function markerlyoptions_do_page() {
 	?>
+	<script type="text/javascript" src="http://www.markerly.com/assets/js/lib/colorpicker/jquery.miniColors.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="http://www.markerly.com/assets/js/lib/colorpicker/jquery.miniColors.css" />
+    <style type="text/css">
+    #done-btn {
+        background: none repeat scroll 0 0 yellow;
+        border: 1px solid lightgrey;
+        border-radius: 3px 3px 3px 3px;
+        bottom: 0;
+        color: #444444;
+        cursor: pointer;
+        display: none;
+        font-weight: bold;
+        height: 0;
+        left: 17px;
+        padding: 5px 30px 24px;
+        position: absolute;
+        z-index: 12;
+    }
+    </style>
+	
 	<div class="wrap">
 		<h2>Markerly Options</h2>
 		<form method="post" action="options.php">
@@ -66,9 +86,31 @@ function markerlyoptions_do_page() {
 			    if ($options['tip_style'] == "") $options['tip_style'] = "light";
 			    if ($options['services'] == "") $options['services'] = "facebook,twitter,email";
 			    if ($options['image_services'] == "") $options['services'] = "facebook,twitter,pinterest,email";
+			    if ($options['service_color'] == "") $options['service_color'] = "000000";
 			    
 			    
 			?>
+			
+			
+			<script type="text/javascript">
+			if (typeof $ == "undefined") $ = jQuery;
+			$(function() {
+			    $('#colorselector').miniColors({
+					close: function(hex, rgb) {
+					    $('input[name="markerly[service_color]"]').val(hex.replace('#', ''));
+					    $('.sharing-options').css('background-color', hex);
+					    $('.color-code').text(hex.toUpperCase());
+						$('#done-btn').hide();
+					},
+					open: function() {
+						// mixpanel.track('color-picker', mixpanel_array);
+					}
+				});
+				
+				$('.color-code').text('#<?php echo $options['service_color']; ?>');
+			});	
+			</script>
+			
 			<table class="form-table">
 				<tr valign="top"><th scope="row">Publisher ID</th>
 					<td>
@@ -107,6 +149,17 @@ function markerlyoptions_do_page() {
 					    <input name="markerly[tip_style]" type="radio" value="light" <?php checked("light", $options['tip_style']); ?> /> Light <br />
 					    <input name="markerly[tip_style]" type="radio" value="black" <?php checked("black", $options['tip_style']); ?> /> Dark<br />
 					    <input name="markerly[tip_style]" type="radio" value="transparent" <?php checked("transparent", $options['tip_style']); ?> /> Transparent
+					</td>
+				</tr>
+				<tr valign="top"><th scope="row">Service Icon Color</th>
+					<td>
+					    <div id="interface-options-wrap" style="position: relative">
+						    <input type="hidden" id="colorselector" value="<?php echo $options['service_color']; ?>" class="color-picker black" />
+						    <input name="markerly[service_color]" type="hidden" value="<?php echo $options['service_color']; ?>" />
+						    <span class="color-code"></span>
+							<div id="done-btn">Done</div>
+						</div>
+					    
 					</td>
 				</tr>
 			</table>
