@@ -16,7 +16,7 @@ Configuring / Installing
 * All settings live under SETTINGS > Markerly Settings
 * Publisher ID required to receive analytics
 
-Version: 1.3
+Version: 1.4
 Author: Justin Kline
 Author URI: justin@markerly.com
 */
