@@ -1,10 +1,10 @@
 === Official Markerly Widget ===
 Contributors: Justin Kline <justin@markerly.com> & Rahf Noor <rahfnoor@gmail.com>
 Donate link: It's free! Enjoy!
-Tags: sharing, micro-sharing, text analytics, AddThis, addtoany, aim, bookmark, bookmarking, buzz, e-mail, email, Facebook, google bookmarks, google plus, network, pintrest, Share, share this, sharethis, tynt, sharing, social, socialize, twitter, widget
+Tags: sharing, micro-sharing, text analytics
 Requires at least: 3.3
-Tested up to: 3.8
-Stable tag: 1.2
+Tested up to: 4.2
+Stable tag: 1.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -58,7 +58,7 @@ Of course! You can use Markerly on anything! It's your tool!
 
 == Screenshots ==
 
-http://markerly.com/assets/screenshots/product_screenshot_1.png
+http://www.markerly.com/assets/screenshots/product_screenshot_1.png
 
 == Changelog == 
 
@@ -66,5 +66,6 @@ http://markerly.com/assets/screenshots/product_screenshot_1.png
 
 == Upgrade Notice == 
 
+- 1.4.0: wordpress compatibility check 
 - 1.2.0: added option to change icon color
 - should work through v3.5+
